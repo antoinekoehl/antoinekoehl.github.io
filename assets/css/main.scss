@@ -1,0 +1,17 @@
+---
+
+---
+
+@charset "utf-8";
+
+@media (min-width: 48em) { html { font-size: 16px; } }
+@media (min-width: 64em) { html { font-size: 16px; } }
+@media (min-width: 80em) { html { font-size: 16px; } }
+
+html {
+  font-size: 16px;
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+

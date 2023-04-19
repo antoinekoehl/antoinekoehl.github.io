@@ -1,9 +1,7 @@
 ---
 author_profile: false
 title: "Structure of the &mu;-opioid receptor-Gi protein complex"
-authors: "Koehl A, Hu H, Maeda S, Zhang Y, Qu Q, Paggi JM, Latorraca, NR, Hilger DH, Dawseon R, Matile H, Schertler GFX, Granier S, Weis WI, Dror RO, Manglik A, Skiniotis G, Kobilka BK"
-permalink: /publication/mu-gi
-excerpt: 'Structure of the &mu;-opioid receptor-Gi protein complex'
+authors: "**Koehl A**, Hu H, Maeda S, Zhang Y, Qu Q, Paggi JM, Latorraca, NR, Hilger DH, Dawseon R, Matile H, Schertler GFX, Granier S, Weis WI, Dror RO, Manglik A, Skiniotis G, Kobilka BK"
 pub_date: 2018-06-13
 journal: 'Nature'
 image: '/images/pubs/2018-koehl-mu.png'
@@ -20,7 +18,6 @@ links:
     url: "https://facultyopinions.com/article/733437525"
   - name: "Phys.org - CryoEM study captures opioid signaling in the act"
     url: "https://phys.org/news/2018-06-cryoem-captures-opioid.html"
-citation: 'Koehl A, Hu H, Maeda S, Zhang Y, Qu Q, Paggi JM, et al. Structure of the µ-opioid receptor–Gi protein complex. Nature 2018;558:547–52. https://doi.org/10.1038/s41586-018-0219-7.'
 ---
 
 ## Abstract

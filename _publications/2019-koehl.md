@@ -1,9 +1,7 @@
 ---
 author_profile: false
 title: "Structural insights into the activation of metabotropic glutamate receptors"
-authors: "Koehl A, Hu H, Feng D, Sun B, Zhang Y, Robertson MJ, Chu M, Kobilka TS, Laeremans T, Steyaert J, Tarrasch J, Dutta S, Fonseca R, Weis WI, Mathiesen JM, Skiniotis G, Kobilka BK"
-permalink: /publication/mglu
-excerpt: 'Structural insights into the activation of metabotropic glutamate receptors'
+authors: "**Koehl A**, Hu H, Feng D, Sun B, Zhang Y, Robertson MJ, Chu M, Kobilka TS, Laeremans T, Steyaert J, Tarrasch J, Dutta S, Fonseca R, Weis WI, Mathiesen JM, Skiniotis G, Kobilka BK"
 pub_date: 2019-01-23
 journal: 'Nature'
 image: '/images/pubs/2019-koehl-mglu.png'
@@ -21,8 +19,6 @@ links:
     url: 'https://www.nature.com/articles/d41586-018-07885-x'
   - name: "F1000 recommendations - Structural insights into the activation of metabotropic glutamate receptors"
     url: "https://facultyopinions.com/article/734907329"
-
-citation: 'Koehl A, Hu H, Feng D, Sun B, Zhang Y, Robertson MJ, et al. Structural insights into the activation of metabotropic glutamate receptors. Nature 2019;566:79–84. https://doi.org/10.1038/s41586-019-0881-4.'
 ---
 
 ## Abstract
