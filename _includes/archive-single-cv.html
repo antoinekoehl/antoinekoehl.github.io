@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <li>
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+    <h3 class="archive__item-title" itemprop="headline">
+        <h5>{{ post.title | markdownify  | remove: '<p>' | remove: '</p>'}}</h5>
+		<h6>{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+		{% if post.journal %}
+			<i>{{ post.journal }},</i>
+			{{post.pub_date | split: "-" | first }}
+		{% else %}
+			{% if post.biorxiv %}
+			<i>Biorxiv,</i>
+				{{post.biorxiv | split: "." | first }}
+			{% elsif post.biorxiv_version %}
+			<i>Biorxiv,</i>
+				{{post.biorxiv_version | split: "." | first }}
+			{% else %}
+			<i>Preprint,</i>
+				{{post.pub_date | split: "-" | first }}
+			{% endif %}
+		{% endif %}
+    </h3>
+    {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+    </li>
+ </article>
+</div>
