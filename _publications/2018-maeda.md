@@ -4,7 +4,7 @@ title: "Development of an antibody fragment that stabilizes GPCR/G-protein compl
 authors: "Maeda S, **Koehl A**, Matile H, Hu H, Hilger DH, Schertler GFX, Manglik A, Skiniotis G, Dawson RJP, Kobilka BK"
 pub_date: 2018-09-13
 journal: 'Nature Communications'
-image: ''
+image: '/images/pubs/2018-maeda.png'
 pdf: ''
 pmid: 30213947
 pmcid: PMC6137068

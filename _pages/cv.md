@@ -11,12 +11,12 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+----
 * B.S. -  Molecular, Cell and Developmental Biology, University of California, Los Angeles, 2013
 * Ph.D. - Structural Biology, Stanford University, 2019
 
 Research Experience
-======
+----
 * Summer 2010: Undergraduate Research Assistant
   * National University of Singapore
   * qPCR analysis of differentially expressed cancer genes following HepB infection
@@ -49,13 +49,13 @@ Research Experience
     * Using machine learning to create better models of the sequence/structure/function relationship in proteins
     
 Publications
-======
+----
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks & Presentations
-======
+----
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
