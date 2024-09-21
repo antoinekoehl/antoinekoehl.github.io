@@ -26,7 +26,8 @@ title: "Antoine Koehl / Homepage"
 title_separator: "-"
 name: &name "Antoine Koehl"
 description: &description "Antoine's Homepage"
-url: "antoinekoehl.github.io"
+baseurl: ""
+url: "https://antoinekoehl.github.io"
 
 
 twitter:
@@ -34,7 +35,7 @@ twitter:
 
 author:
   name: "Antoine Koehl"
-  avatar: "headshot/headshot_ak.jpg"
+  avatar: "https://antoinekoehl.github.io/images/headshot/headshot_ak.jpg"
   googlescholar: "https://scholar.google.com/citations?user=VSfWOnAAAAAJ&hl=en"
   github: "antoinekoehl"
   twitter: "antoinekoehl"
