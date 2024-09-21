@@ -5,7 +5,6 @@ authors: "Koleske ML, McInnes G, Brown JEH, Thomas N, Hutchinson K, Chin MY, **K
 pub_date: 2022-11-15
 journal: 'Proceedings of the National Academy of Sciences of the United States of America (PNAS)'
 image: '/images/pubs/2022-koleske.jpg'
-pdf: ''
 pmid: 36343260
 pmcid: PMC9674959
 ---

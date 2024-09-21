@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Deep Models of Protein Evolution",
+        "excerpt":"This project sought to extend classical models of protein Evolution (LG, WAG) using deep neural networks. Classical models of protein evolution assume that sites evolve independently. On the other hand, protein language models (e.g. ESM) are great at capturing dependencies between sites, but are unable to describe evolution along a...","categories": [],
+        "tags": ["Proteins","Deep Learning","Evolution"],
+        "url": "/projects/2024-protevo/",
+        "teaser": null
+      },{
         "title": "Structural mapping of the ClpB ATPases of Plasmodium falciparum: Targeting protein folding and secretion for antimalarial drug design",
         "excerpt":" ","categories": [],
         "tags": [],
@@ -69,5 +75,17 @@ var store = [{
         "excerpt":" ","categories": [],
         "tags": [],
         "url": "/publications/2022-koleske/",
+        "teaser": null
+      },{
+        "title": "Stepwise activation of a metabotropic glutamate receptor",
+        "excerpt":"Abstract Metabotropic glutamate receptors belong to a family of G protein-coupled receptors that are obligate dimers and possess a large extracellular ligand-binding domain that is linked via a cysteine-rich domain to their 7-transmembrane domain. Upon activation, these receptors undergo a large conformational change to transmit the ligand binding signal from...","categories": [],
+        "tags": [],
+        "url": "/publications/2024-kumar/",
+        "teaser": null
+      },{
+        "title": "Structural basis of &mu;-opioid receptor-targeting by a nanobody antagonist",
+        "excerpt":"Abstract The μ-opioid receptor (μOR), a prototypical member of the G protein-coupled receptor (GPCR) family, is the molecular target of opioid analgesics such as morphine and fentanyl. Due to the limitations and severe side effects of currently available opioid drugs, there is considerable interest in developing novel modulators of μOR...","categories": [],
+        "tags": [],
+        "url": "/publications/2024-yu/",
         "teaser": null
       }]

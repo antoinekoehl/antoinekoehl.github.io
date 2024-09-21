@@ -34,7 +34,7 @@ twitter:
 
 author:
   name: "Antoine Koehl"
-  avatar: "/headshot/20230321_MillerInst_bhs_047.jpg"
+  avatar: "/headshot/headshot_ak.jpg"
   googlescholar: "https://scholar.google.com/citations?user=VSfWOnAAAAAJ&hl=en"
   github: "antoinekoehl"
   twitter: "antoinekoehl"
@@ -45,6 +45,9 @@ collections:
     output: true
     permalink: /:collection/:path/
     author_profile: false
+  projects:
+    output: true
+    permalink: /:collection/:title/
 
 defaults:
   # _posts
@@ -78,6 +81,16 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comments: true
+      classes: wide
+  # _projects
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: false
