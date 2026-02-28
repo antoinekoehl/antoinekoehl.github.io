@@ -1,6 +1,6 @@
 ---
 author_profile: false
-title: "Deep model of protein evolution in time generate realistic evolutionary trajectories and functional proteins"
+title: "Deep models of protein evolution in time generate realistic evolutionary trajectories and functional proteins"
 authors: "**Koehl A**, Prillo S, Liu Matthew, Xiong J, Weng L, Savage DF, Song YS"
 pub_date: 2026-02-20
 journal: #'Nature'

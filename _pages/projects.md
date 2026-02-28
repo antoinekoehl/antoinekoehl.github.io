@@ -7,7 +7,7 @@ author_profile: true
 ---
 
 I have been fortunate to work on a number of interesting projects with some remarkable people.
-There's a bit of a divide - my prior work was mostly exeperimental, while my current work is mostly computational.
+There's a bit of a divide - my prior work was mostly experimental, while my current work is mostly computational.
 
 Here's a flavor of some of the projects I've worked on:
 
